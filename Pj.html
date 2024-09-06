@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plateforme de Formation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+           
+            <ul>
+                <div>
+                 <img src="dieyna.jpg" alt="" class="log">
+                 <p class="US">UVS</p>
+                </div>
+
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#DET">Details</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login">Connexion</a></li>
+            </ul>
+
+        </nav>
+        <div class="welcome-section">
+            <img src="sall.jpg" width="1200" height="200" alt="">
+            <h1><marquee>Bienvenue sur notre plateforme de formation en ligne</marquee> </h1>
+            <p>Apprenez à votre rythme avec nos cours spécialisés</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="courses-section">
+            <h2>Nos Cours</h2>
+            <div class="course">
+                <h3>Introduction au HTML</h3>
+                <p>Apprenez les bases de la création de pages web avec HTML.</p>
+                <a href="details2.html"class="btn">Voir Détails</a>
+            </div>
+            <div class="course">
+                <h3>Maîtriser le CSS</h3>
+                <p>Découvrez comment styliser vos pages web avec CSS.</p>
+                <a href="detaills.html" class="btn">Voir Détails</a>
+            </div>
+        </section>
+        <section class="about-section" id="about">
+            <h1>À propos de nous</h1>
+            <p>Nous sommes une équipe passionnée par l'éducation en ligne, dédiée à fournir des cours de haute qualité à des étudiants du monde entier.</p>
+            <h2>Notre mission</h2>
+            <p>Rendre l'éducation accessible et flexible pour tous.</p>
+            <h3>EQUIPE</h3>
+            <p><H3>IBRAHIMA NIANG</H3></p>
+            <p><H3>DIEYNABA LENE</H3></p>
+            <p><H3>SEYNABOU SALL</H3></p>
+            <p><H3>MAREME CISS</H3></p>
+        </section>
+        <section class="course-details" id="DET">
+            <h1>Introduction au HTML</h1>
+            <p>Ce cours vous permettra de découvrir les bases du langage HTML, essentiel pour la création de sites web.</p>
+            <h2>Modules inclus :</h2>
+            <ul>
+                <li>Module 1 : Introduction au HTML</li>
+                <li>Module 2 : Les balises HTML de base</li>
+                <li>Module 3 : Créer des formulaires HTML</li>
+                <li>Module 4 : Structurer une page web</li>
+            </ul>
+        </section>
+        
+        <section class="contact-section" id="contact">
+            <h1>Contactez-nous</h1>
+            <form action="#" method="POST">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Sujet :</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+        <section class="login-section" id="login">
+            <h1>Connexion</h1>
+            <form action="#" method="POST">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Se connecter</button>
+            </form>
+            <p>Pas encore de compte ? <a href="#">Inscrivez-vous ici</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Plateforme de Formation | Tous droits réservés</p>
+    </footer>
+</body>
+</html>
